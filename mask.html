@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Template</title>
+	<style>
+		body {
+			background-color: #964B00; /* wood brown */
+		}
+		.survey-container {
+			border: 1px solid #000;
+			padding: 20px;
+			background-color: #fff;
+			width: 80%;
+			margin: 40px auto;
+		}
+		.section {
+			margin-bottom: 20px;
+		}
+		.question {
+			margin-bottom: 10px;
+		}
+		.label {
+			display: block;
+			margin-bottom: 5px;
+		}
+		.input {
+			margin-right: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="survey-container">
+		<h1>Survey Template</h1>
+		<section class="section">
+			<h2>Section 1: Personal Information</h2>
+			<div class="question">
+				<label class="label">1. Are you over the age of 18?</label>
+				<input type="radio" name="q1" value="yes" class="input"> Yes
+				<input type="radio" name="q1" value="no" class="input"> No
+			</div>
+			<div class="question">
+				<label class="label">2. Do you identify as female?</label>
+				<input type="radio" name="q2" value="yes" class="input"> Yes
+				<input type="radio" name="q2" value="no" class="input"> No
+			</div>
+			<!-- ... rest of questions in Section 1 ... -->
+		</section>
+		<section class="section">
+			<h2>Section 2: Sexual Behavior</h2>
+			<div class="question">
+				<label class="label">1. Have you engaged in sexual activity by the age of 18?</label>
+				<input type="radio" name="q11" value="yes" class="input"> Yes
+				<input type="radio" name="q11" value="no" class="input"> No
+			</div>
+			<div class="question">
+				<label class="label">2. Have you had more than one sexual partner in the past year?</label>
+				<input type="radio" name="q12" value="yes" class="input"> Yes
+				<input type="radio" name="q12" value="no" class="input"> No
+			</div>
+			<!-- ... rest of questions in Section 2 ... -->
+		</section>
+		<section class="section">
+			<h2>Section 3: Drug Use</h2>
+			<div class="question">
+				<label class="label">1. Have you ever used recreational drugs?</label>
+				<input type="radio" name="q21" value="yes" class="input"> Yes
+				<input type="radio" name="q21" value="no" class="input"> No
+			</div>
+			<div class="question">
+				<label class="label">2. Have you ever used cannabis?</label>
+				<input type="radio" name="q22" value="yes" class="input"> Yes
+				<input type="radio" name="q22" value="no" class="input"> No
+			</div>
+			<!-- ... rest of questions in Section 3 ... -->
+		</section>
+		<section class="section">
+			<h2>Section 4: Hobbies</h2>
+			<div class="question">
+				<label class="label">1. Do you have a hobby you are passionate about?</label>
+				<input type="radio" name="q31" value="yes" class="input"> Yes
+				<input type="radio" name="q31" value="no" class="input"> No
+			</div>
+			<div class="question">
+				<label class="label">2. Do you dedicate more than 5 hours a week to your hobbies?</label>
+				<input type="radio" name="q32" value="yes" class="input"> Yes
+				<input type="radio" name="q32" value="no" class="input"> No
+			</div>
+			<!-- ... rest of questions in Section 4 ... -->
+		</section>
+	</div>
+</body>
+</html>
